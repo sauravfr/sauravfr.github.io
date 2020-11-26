@@ -1,0 +1,21 @@
+body h2 h3{
+    margin: 0;
+}
+.background-blue{
+    background-color: #0475ba;
+    color: white;
+    list-style: none;
+}
+section, footer{
+    padding: 40px;
+}
+nav{
+    padding: 22px;
+}
+.profil{
+    list-style: none;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+}
