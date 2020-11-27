@@ -1,21 +1,54 @@
-body, h2, h3{
+body, h1, h3{
+    width: 100%;
     margin: 0;
 }
-.background-blue{
-    background-color: #0475ba;
-    color: white;
-    list-style: none;
-}
-section, footer{
-    padding: 40px;
-}
+
 nav{
-    padding: 22px;
+    padding: 15px;
+    background-color: #393e46;
+    display: flex;
+    color: white;
 }
-.profil{
+nav ul{
     list-style: none;
+    color: white;
+    display: flex;
+    margin-right: 80px;
+}
+
+nav ul li a{
+    color: white;
+    padding: 10px;
+}
+
+.profil{
+    padding: 40px;
     text-align: center;
 }
 img{
+    padding: 20px;
     border-radius: 50%;
 }
+.profil h3{
+    padding: 10px;
+}
+
+.presentation, .experience, .formation{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 2px #393e46;
+    padding: 10px;
+    margin: 20px;
+}
+
+@media (min-width: 768px) {
+    .cards{
+        display: flex;
+        margin-left: 100px;
+    }    
+  }
+
+
